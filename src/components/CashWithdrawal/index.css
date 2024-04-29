@@ -1,1 +1,42 @@
 /* Write your CSS here */
+.app-container {
+  background-color: #150b3e;
+  color: whitesmoke;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+.denominations-list {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto;
+}
+
+.initial {
+  border-radius: 65px;
+  padding: 60px;
+  width: 30px;
+  height: 30px;
+  background-color: #7c3aed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
